@@ -2,7 +2,7 @@ const {odd,even} = require('./var');
 const checkNumber = require('./func') 
 
 function checkStringOddOrEven(str){
-    if(str.lenght % 2) {
+    if(str.lengh % 2) {
         return odd;
     }else {
         return even;
